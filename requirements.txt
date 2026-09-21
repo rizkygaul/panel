@@ -1,0 +1,4 @@
+flask
+requests
+httpx
+python-telegram-bot==21.10
