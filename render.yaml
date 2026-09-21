@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: otp-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: CHAT_ID
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: AUGESTEL_API_KEY
+        sync: false
+      - key: AUGESTEL_WEBHOOK_SECRET
+        sync: false
