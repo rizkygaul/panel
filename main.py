@@ -44,10 +44,10 @@ def _require_env(name: str) -> str:
         sys.exit(f"❌ Environment variable '{name}' belum diisi.")
     return val
 
-BOT_TOKEN      = _require_env("BOT_TOKEN")
-CHAT_ID        = _require_env("CHAT_ID")
-ADMIN_ID       = int(_require_env("ADMIN_ID"))
-AUGESTEL_API_KEY = os.getenv("AUGESTEL_API_KEY", "").strip()
+BOT_TOKEN      = _require_env("8655005886:AAEHsq_IRGEfCCpbiHA-PvMAaMuiYRy1qDg")
+CHAT_ID        = _require_env("-1003879729631")
+ADMIN_ID       = int(_require_env("8573344923"))
+AUGESTEL_API_KEY = os.getenv("sk_live_dEwXVL6wPi12iqLPtjwBgsuI4SpDXhPk2J3nysAd", "").strip()
 WEBHOOK_SECRET   = os.getenv("AUGESTEL_WEBHOOK_SECRET", "").strip()
 
 # Render: port dari env PORT
