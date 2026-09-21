@@ -1,0 +1,12 @@
+{
+  "2026-09-05": {
+    "total": 26,
+    "by_sender": {
+      "WhatsApp": 26
+    },
+    "by_country": {
+      "TG": 5,
+      "CM": 21
+    }
+  }
+}
