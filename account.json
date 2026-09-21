@@ -1,8 +1,0 @@
-[
-    {
-        "name": "augestel",
-        "base_url": "https://augestel.com/api/v1/iprn",
-        "api_key": "sk_live_Kg2wzoGeqsCebHmvck3mkfHGvApFRn2keJbieSYd",
-        "webhook_secret": "d8b5f630f8b557b9033d044e2cc3fd74787601a7a7d3b2fee1f766af9410d21f"
-    }
-]
